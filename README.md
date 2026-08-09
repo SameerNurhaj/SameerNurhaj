@@ -69,7 +69,7 @@ I'm a front-end engineer who cares about the last 5% almost as much as the first
 <img src="assets/trophies.svg" alt="GitHub trophies" width="96%"/>
 </div>
 
-<sub>All three cards above are static local SVGs rendered straight from this repo, no third-party rate-limited card services involved.</sub>
+<!-- <sub>All three cards above are static local SVGs rendered straight from this repo, no third-party rate-limited card services involved.</sub> -->
 
 <br/>
 
@@ -79,7 +79,7 @@ I'm a front-end engineer who cares about the last 5% almost as much as the first
 <img src="https://github-readme-activity-graph.vercel.app/graph?username=SameerNurhaj&theme=react-dark&hide_border=true&bg_color=150826&color=e6cfff&line=ff2e88&point=ffffff&area=true&area_color=a855f7" alt="Sameer's contribution activity graph" width="96%"/>
 </div>
 
-<sub>Live graph from a hosted renderer, this one needs to stay dynamic since it reflects today's contributions.</sub>
+<!-- <sub>Live graph from a hosted renderer, this one needs to stay dynamic since it reflects today's contributions.</sub> -->
 
 <br/>
 
@@ -95,7 +95,7 @@ I'm a front-end engineer who cares about the last 5% almost as much as the first
 
 </div>
 
-<sub>Generated on a schedule by <code>.github/workflows/github-snake.yml</code> via the Platane/snk action, committed to the <code>output</code> branch.</sub>
+<!-- <sub>Generated on a schedule by <code>.github/workflows/github-snake.yml</code> via the Platane/snk action, committed to the <code>output</code> branch.</sub> -->
 
 <br/>
 
