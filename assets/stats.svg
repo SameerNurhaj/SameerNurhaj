@@ -1,0 +1,71 @@
+<svg width="480" height="200" viewBox="0 0 480 200" xmlns="http://www.w3.org/2000/svg">
+<defs>
+  <linearGradient id="bgGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+    <stop offset="0%" stop-color="#150826"/><stop offset="100%" stop-color="#2b0a3d"/>
+  </linearGradient>
+  <linearGradient id="ringGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+    <stop offset="0%" stop-color="#ff2e88"/><stop offset="100%" stop-color="#a855f7"/>
+  </linearGradient>
+  <linearGradient id="dotGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+    <stop offset="0%" stop-color="#ff2e88"/><stop offset="100%" stop-color="#a855f7"/>
+  </linearGradient>
+  <filter id="glow" x="-60%" y="-60%" width="220%" height="220%">
+    <feGaussianBlur stdDeviation="3.2" result="b"/>
+    <feMerge><feMergeNode in="b"/><feMergeNode in="SourceGraphic"/></feMerge>
+  </filter>
+  <clipPath id="cardClip"><rect width="480" height="200" rx="18"/></clipPath>
+  <style>
+    <![CDATA[
+    .statRow { animation: rowIn 0.6s ease both; }
+    @keyframes rowIn { from { opacity: 0; transform: translateX(24px); } to { opacity: 1; transform: translateX(0); } }
+    .ring { stroke-dasharray: 389.6; stroke-dashoffset: 35.1; animation: ringDraw 1.6s cubic-bezier(.3,.9,.3,1) 0.2s both; }
+    @keyframes ringDraw { from { stroke-dashoffset: 389.6; } to { stroke-dashoffset: 35.1; } }
+    .rankTxt { animation: fadeIn 0.6s ease 1.5s both; }
+    @keyframes fadeIn { from { opacity: 0; } to { opacity: 1; } }
+    .title { animation: fadeIn 0.5s ease 0.05s both; }
+    ]]>
+  </style>
+</defs>
+<g clip-path="url(#cardClip)">
+  <rect width="480" height="200" fill="url(#bgGrad)"/>
+  <rect width="480" height="200" rx="18" fill="none" stroke="#5a2a7a" stroke-width="1.4"/>
+  <text x="24" y="26" class="title" font-family="'Segoe UI',Verdana,sans-serif" font-size="15" font-weight="700" fill="#f5e5ff">Sameer's GitHub Stats</text>
+
+  <g transform="translate(100,116)">
+    <circle r="62" fill="none" stroke="#2a1440" stroke-width="10"/>
+    <circle r="62" fill="none" stroke="url(#ringGrad)" stroke-width="10" stroke-linecap="round"
+      class="ring" filter="url(#glow)" transform="rotate(-90)"/>
+    <text text-anchor="middle" y="-2" class="rankTxt" font-family="'Segoe UI',Verdana,sans-serif" font-size="30" font-weight="800" fill="#ffffff">A+</text>
+    <text text-anchor="middle" y="20" class="rankTxt" font-family="'Segoe UI',Verdana,sans-serif" font-size="11" letter-spacing="2" fill="#c9a8e6">RANK</text>
+  </g>
+
+  <g transform="translate(200,26)">
+    <g transform="translate(0,34)">
+<g class="statRow" style="animation-delay:0.35s">
+  <circle cx="6" cy="-5" r="3.4" fill="url(#dotGrad)"/>
+  <text x="20" y="0" font-family="'Segoe UI',Verdana,sans-serif" font-size="14" fill="#e6cfff">Total Stars</text>
+  <text x="270" y="0" text-anchor="end" font-family="'Segoe UI',Verdana,sans-serif" font-size="14" font-weight="700" fill="#ff8ad4">128</text>
+</g></g><g transform="translate(0,64)">
+<g class="statRow" style="animation-delay:0.49s">
+  <circle cx="6" cy="-5" r="3.4" fill="url(#dotGrad)"/>
+  <text x="20" y="0" font-family="'Segoe UI',Verdana,sans-serif" font-size="14" fill="#e6cfff">Total Commits</text>
+  <text x="270" y="0" text-anchor="end" font-family="'Segoe UI',Verdana,sans-serif" font-size="14" font-weight="700" fill="#ff8ad4">1,940</text>
+</g></g><g transform="translate(0,94)">
+<g class="statRow" style="animation-delay:0.63s">
+  <circle cx="6" cy="-5" r="3.4" fill="url(#dotGrad)"/>
+  <text x="20" y="0" font-family="'Segoe UI',Verdana,sans-serif" font-size="14" fill="#e6cfff">Pull Requests</text>
+  <text x="270" y="0" text-anchor="end" font-family="'Segoe UI',Verdana,sans-serif" font-size="14" font-weight="700" fill="#ff8ad4">63</text>
+</g></g><g transform="translate(0,124)">
+<g class="statRow" style="animation-delay:0.77s">
+  <circle cx="6" cy="-5" r="3.4" fill="url(#dotGrad)"/>
+  <text x="20" y="0" font-family="'Segoe UI',Verdana,sans-serif" font-size="14" fill="#e6cfff">Issues Closed</text>
+  <text x="270" y="0" text-anchor="end" font-family="'Segoe UI',Verdana,sans-serif" font-size="14" font-weight="700" fill="#ff8ad4">41</text>
+</g></g><g transform="translate(0,154)">
+<g class="statRow" style="animation-delay:0.91s">
+  <circle cx="6" cy="-5" r="3.4" fill="url(#dotGrad)"/>
+  <text x="20" y="0" font-family="'Segoe UI',Verdana,sans-serif" font-size="14" fill="#e6cfff">Contributed To</text>
+  <text x="270" y="0" text-anchor="end" font-family="'Segoe UI',Verdana,sans-serif" font-size="14" font-weight="700" fill="#ff8ad4">17</text>
+</g></g>
+  </g>
+</g>
+</svg>
