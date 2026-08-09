@@ -95,7 +95,7 @@ I'm a front-end engineer who cares about the last 5% almost as much as the first
 
 </div>
 
-<sub>Generated on a schedule by <code>assets/github-snake.yml</code> via the Platane/snk action, committed to the <code>output</code> branch.</sub>
+<sub>Generated on a schedule by <code>.github/workflows/github-snake.yml</code> via the Platane/snk action, committed to the <code>output</code> branch.</sub>
 
 <br/>
 
@@ -106,11 +106,10 @@ I'm a front-end engineer who cares about the last 5% almost as much as the first
 | Project | Stack | Description |
 |---|---|---|
 | **[Portfolio Site](https://sameeransari.com.np)** | React · Tailwind · Vite | Personal portfolio with motion-driven case studies. |
-| **[Birthday wish](https://specialbtd.netlify.app/)** | TypeScript · React · Storybook | A small library of accessible, themeable UI primitives. |
-| **[Text analyzer](https://sn-text.netlify.app/)** | Next.js · Redux · Chart.js | Data-dense admin dashboard with dark mode and live charts. |
-| **[qr-code generator](https://sameernurhaj.github.io/QR-Generator/)** | HTML5 · CSS3 · JavaScript | Fast, framework-free landing page templates. |
+| **[Birthday wish](https://specialbtd.netlify.app/)** | TypeScript · React · Node js |An interactive birthday website with animations, music, countdowns, and personalized memories. |
+| **[Text analyzer](https://sn-text.netlify.app/)** | HTML5 · CSS3 · Javascript|A web-based text analyzer that provides useful insights and statistics from user-provided text. |
+| **[qr-code generator](https://sameernurhaj.github.io/QR-Generator/)** | HTML5 · CSS3 · JavaScript |A simple QR code generator that converts text or URLs into downloadable QR codes using a clean, responsive interface. |
 
-*(swap these rows for your real repos any time — the table is plain Markdown)*
 
 </div>
 
